@@ -1,7 +1,7 @@
 const { description, authors } = require('../../package')
 
 module.exports = {
-  theme: 'reco',
+  theme: '@qcyblm/vpx',
   base: '/API-Docs/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
@@ -51,6 +51,7 @@ module.exports = {
       }
     ],
     sidebar: [
+      '/',
       '/guide/',
       '/guide/APIReference',
       {

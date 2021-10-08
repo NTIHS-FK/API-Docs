@@ -14,8 +14,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.3",
-    "vuepress-theme-reco": "^1.6.6"
+    "@qcyblm/vuepress-theme-vpx": "^1.0.7",
+    "vuepress": "^1.5.3"
   },
   "dependencies": {}
 }
