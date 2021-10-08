@@ -2,6 +2,7 @@ const { description, authors } = require('../../package')
 
 module.exports = {
   theme: 'reco',
+  base: '/API-Docs/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
