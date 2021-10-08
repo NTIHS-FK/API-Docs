@@ -49,18 +49,20 @@ module.exports = {
         link: 'https://github.com/NTIHS-FK'
       }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'API Docs',
-          collapsable: false,
-          children: [
-            '',
-            '/guide/API'
-          ]
-        }
-      ],
-    }
+    sidebar: [
+      '/guide/',
+      '/guide/APIReference',
+      {
+        title: 'API',   // required
+        path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
+        collapsable: false, // optional, defaults to true
+        sidebarDepth: 1,    // optional, defaults to 1
+        children: [
+          '/guide/api/post'
+        ]
+      }
+    ]
+    
   },
 
   /**
