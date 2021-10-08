@@ -1,10 +1,11 @@
-const { description } = require('../../package')
+const { description, authors } = require('../../package')
 
 module.exports = {
+  theme: 'reco',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: '靠北南工+ API Docs',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -32,28 +33,29 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    author: authors.name,
+    startYear: '2021',
     nav: [
       {
-        text: 'Guide',
+        text: '首頁',
+        link: 'https://??'
+      },
+      {
+        text: 'API',
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'GitHub',
+        link: 'https://github.com/NTIHS-FK'
       }
     ],
     sidebar: {
       '/guide/': [
         {
-          title: 'Guide',
+          title: 'API Docs',
           collapsable: false,
           children: [
             '',
-            'using-vue',
           ]
         }
       ],
