@@ -31,7 +31,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: 'NTIHS-FK/API-Docs',
+    repo: 'NTIHS-FK',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
@@ -46,10 +46,6 @@ module.exports = {
       {
         text: 'API',
         link: '/guide/',
-      },
-      {
-        text: 'GitHub',
-        link: 'https://github.com/NTIHS-FK'
       }
     ],
     sidebar: [
