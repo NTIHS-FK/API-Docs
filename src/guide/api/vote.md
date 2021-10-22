@@ -12,3 +12,19 @@
 
 ## `GET` /api/votes
 
+```json5
+[
+  {
+    "id": 2,
+    "time": 1633699600705,
+    "textImage": "asdasd",
+    "voting": true
+  },
+  {
+    "id": 3,
+    "time": 1633699650705,
+    "textImage": "asdasdasdasd",
+    "voting": true
+  }
+]
+```

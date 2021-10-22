@@ -1,8 +1,10 @@
 const { description, authors } = require('../../package')
 
 module.exports = {
-  theme: '@qcyblm/vpx',
-  base: '/API-Docs/',
+  theme: 'vuepress-theme-succinct',
+  globalUIComponents: [
+    'ThemeManager'
+  ],
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */

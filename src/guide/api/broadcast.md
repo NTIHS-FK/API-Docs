@@ -7,7 +7,7 @@
 |  textImage  | string |   圖文id    |
 | publishText | string |  文章內容   |
 
-# `WebSocket` /post/broadcast
+## `WebSocket` /post/broadcast
 
 ### Example Partial Broadcast
 
