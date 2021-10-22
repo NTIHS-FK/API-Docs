@@ -1,6 +1,6 @@
 # 文章 API
 
-## Post Object
+## Article Object
 |   Field   |  Type   | Description  |
 | :-------: | :-----: | :----------: |
 |    id     | integer |    文章id    |

@@ -29,7 +29,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: 'NTIHS-FK/API-Docs',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
@@ -60,7 +60,8 @@ module.exports = {
         collapsable: false, // optional, defaults to true
         sidebarDepth: 1,    // optional, defaults to 1
         children: [
-          '/guide/api/post'
+          '/guide/api/post',
+          '/guide/api/broadcast'
         ]
       }
     ]

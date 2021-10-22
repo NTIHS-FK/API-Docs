@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: ntihs_fk.jpg
 tagline: This is API Docs
 action:
 - text: Quick Start →
